@@ -6,7 +6,7 @@ compatibility_flags = ["python_workers"]
 [[d1_databases]]
 binding = "DB"
 database_name = "flux-db"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "f7160f1d-7166-46d8-8681-68faef848d88"
 migrations_dir = "migrations"
 
 [triggers]
