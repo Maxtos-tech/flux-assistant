@@ -34,7 +34,7 @@ The current D1 database was created first with the tables `users`, `memories`, `
   - `TELEGRAM_BOT_TOKEN`
   - `TELEGRAM_WEBHOOK_SECRET` (a random value of at least 32 characters)
   - `ANTHROPIC_API_KEY`
-- `ANTHROPIC_MODEL` is set to `claude-sonnet-5-5`.
+- `ANTHROPIC_MODEL` is set to `claude-sonnet-5`, an active Claude API model. The model can be changed later in `wrangler.toml`.
 
 ## Deploy
 
