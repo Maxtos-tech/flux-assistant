@@ -1,0 +1,17 @@
+name = "flux-assistant"
+main = "src/entry.py"
+compatibility_date = "2026-11-22"
+compatibility_flags = ["python_workers"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "flux-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+[triggers]
+crons = ["*/30 * * * *"]
+
+[vars]
+ANTHROPIC_MODEL = "claude-sonnet-5-5"
+TELEGRAM_OWNER_ID = "REPLACE_WITH_YOUR_TELEGRAM_USER_ID"
